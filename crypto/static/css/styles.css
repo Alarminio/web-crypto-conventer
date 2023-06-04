@@ -1,0 +1,541 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color:#132C3B;
+    font-family:'Montserrat',Arial,helvetica;
+    height:100%;
+    width:101%;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: #81C3D7 2px solid;
+    border-top: #81C3D7 2px solid;
+  }
+
+header {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: #D9DCD6;
+    font-weight: 500;
+    font-size: 1.2em; color: #132C3B;
+    padding: 50px;
+}
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color: #D9DCD6;
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 50px;
+
+}
+
+.myCoolButton1 {
+    
+    background-color: #2F6690;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 350px;
+    padding: 25px;
+    border: 5px;
+    position: relative;
+    left: 260px;
+    bottom:50px
+
+}
+
+.myCoolButton2 {
+    background-color: #2F6690;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 350px;
+    padding: 25px;
+    border: 5px;
+    position: relative;
+    left: 950px;
+    bottom:50px
+
+}
+
+.title {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.5em; color: #132C3B;
+    padding: 25px;
+
+}
+
+.title_sin {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.5em; color: #132C3B;
+    padding: 25px;
+    width: 10%;
+
+
+}
+.movements {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: 300;
+    font-size: 1.0em; color: rgb(0, 0, 0);
+    padding: 10px;
+
+}
+.selector1 {
+
+    background-color: #81C3D7 ;
+    width: 3cm;
+    position: relative;
+    left: 480px;
+    bottom:80px;
+}
+
+.selector2 {
+
+    background-color: #81C3D7 ;
+    width: 3cm;
+    position: relative;
+    left: 800px;
+    bottom:215px;
+}
+
+.to_purchase {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 740px;
+    bottom:145px;
+
+}
+
+.from_purchase {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 390px;
+    bottom:15px;
+
+}
+
+.q_input {
+
+    background-color: #81C3D7 ;
+    position: relative;
+    left: 595px;
+    bottom:110px;
+
+}
+.calc_q {
+
+    background: #2F6690;
+    position: relative;
+    left: 610px;
+    bottom:110px;
+}
+
+
+.q {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 480px;
+    bottom:218px;
+}
+
+.quant {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: normal;
+    font-size: 1.1em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 520px;
+    bottom:330px;
+
+
+}
+.q_result {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 440px;
+    bottom:195px;
+
+
+}
+
+.p_u {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 450px;
+    bottom:330px;
+}
+
+.p_u_cant {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: normal;
+    font-size: 1.1em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 520px;
+    bottom:400px;
+
+
+}
+
+.valid_error {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 230px;
+    bottom:380px;
+}
+.crypto_error {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 300px;
+    bottom:380px;
+}
+
+.crypto_incompatible {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 300px;
+    bottom:380px;
+}
+
+.alerta_saldo {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 370px;
+    bottom:380px;
+}
+
+
+.error_db {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 370px;
+    bottom:380px;
+}
+
+.error_db_index {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 0px;
+    position: relative;
+    left: 360px;
+    bottom:-180px;
+}
+
+.error_db_status, .error_api_status {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 0px;
+    position: relative;
+    left: 450px;
+    bottom:0px;
+}
+
+.error_api {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 490px;
+    bottom:420px;
+}
+
+.sin_saldo {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 300px;
+    bottom:380px;
+}
+
+
+.btn_purchase {
+
+    background: #3A7CA5;
+    width: 100px;
+    position: relative;
+    left: 960px;
+    bottom:400px;
+}
+
+.btn_clear_purchase {
+
+    background-color: #2F6690;
+    color: whitesmoke;
+    width: 320px;
+    padding: 10px;
+    border: 5px;
+    position: relative;
+    left: 700px;
+    bottom:400px;
+}
+
+.inicio_purchase {
+
+    background-color: #2F6690;
+    color: whitesmoke;
+    width: 320px;
+    padding: 10px;
+    border: 5px;
+    position: relative;
+    left: 370px;
+    bottom: 400px
+
+}
+
+.total_invertido {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 450px;
+    bottom:-30px;
+
+}
+
+.total_invertido_display {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 550px;
+    bottom:-30px;
+
+}
+
+.inversion {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    text-decoration: underline #3A7CA5;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 600px;
+    bottom: 22px;
+}
+
+.valor_actual {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 420px;
+    bottom:80px;
+}
+
+.valor_actual_display {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    text-decoration: underline #3A7CA5;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 600px;
+    bottom:130px;
+}
+
+.balance_total {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 800px;
+    bottom:220px;
+}
+
+.balance_total_beneficio {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    text-decoration: underline #3A7CA5;
+    font-size: 1.2em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: 930px;
+    bottom:270px;
+}
+
+.balance_total_perdida {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline rgb(231, 26, 26);
+    font-size: 1.2em; color: rgb(231, 26, 26);
+    padding: 10px;
+    position: relative;
+    left: 930px;
+    bottom:270px;
+}
+
+.cryptosaldo_sin {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.8em; color: rgb(0, 0, 0);
+    padding: 10px;
+    position: relative;
+    left: -5px;
+    bottom:110px;
+
+}
+
+.cryptohead_sin {
+
+    position: relative;
+    left: 0px;
+    bottom:100px;
+}
+
+.cryptosaldo {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(#000000);
+    font-weight: bold;
+    font-size: 1.8em; color: #132C3B;
+    padding: 10px;
+    position: relative;
+    left: -5px;
+    bottom:190px;
+
+}
+
+.cryptohead {
+
+    position: relative;
+    left: 0px;
+    bottom:170px;
+}
+
+td {
+    width: 650px;
+    height: 30px;
+    border: solid #000 1px ;
+}
+
+th {
+
+    width: 650px;
+    height: 30px;
+    text-align: center;
+
+
+}
+
+.btnVolver_sin {
+
+    background-color: #3A7CA5;
+    color: whitesmoke;
+    width: 320px;
+    padding: 10px;
+    border: 5px;
+    position: relative;
+    left: 650px;
+    bottom: 320px
+}
+
+.btnVolver {
+
+    background-color: #3A7CA5;
+    color: whitesmoke;
+    width: 320px;
+    padding: 10px;
+    border: 5px;
+    position: relative;
+    left: 650px;
+    bottom: 390px
+}
+
+
+thead {
+
+    display: block;
+
+
+}
+
+tbody {
+    display: block;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
